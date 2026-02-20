@@ -1,0 +1,6 @@
+#RESTART AEROSPACE
+#shift + cmd - 1 : yabai -m window --space  1; yabai -m space --focus 1
+cmd + shift + alt - r : aerospace enable off && pkill -f AeroSpace && sleep 1 && open -n /Applications/AeroSpace.app&& aerospace enable on
+#Magic Keyboard Specific Hotkeys (i.e f13-f19)
+f13 : open -a /Applications/Rio.app
+f14 : open -a finder
